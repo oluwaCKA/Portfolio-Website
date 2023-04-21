@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="rootElement">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="60x60" href="./Assets/Segun-Y.-O.jpg" />
+  <title>Segun Okedele</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3ea4554d7e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+
+<body>
+  <div class="loader">
+    <img src="./Assets/CKA.svg" alt="preload">
+  </div>
+ 
+  <header>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><img src="./Assets/CKA.svg" alt="logo"
+            class="navbar-img" />oluwa<span>CKA</span></a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" id="active" class="nav__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./about.html" class="nav__links">About Me</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./project.html" class="nav__links">Projects</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./contact.html" class="nav__links">Contact Me</a>
+          </li>
+        </ul>
+
+        <i onclick="toggleLightMode()" class="fa-sharp fa-solid fa-circle-half-stroke"></i>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <div class="home" id="home">
+      <div class="home__container">
+        <div class="home__wrapper">
+          <div class="home__heading">
+            <h1>Hi!</h1>
+            <div class="hand-emoji">👋</div>
+            I'm <span class="name">Segun Okedele</span>
+          </div>
+
+          <div class="typed-strings">
+            <span class="text first-text">I'm a</span>
+            <span class="text sec-text"></span>
+          </div>
+
+          <div>
+            <a href="./Assets/Segun Okedele.pdf"><button class="resume-btn" download="Segun-Okedele">
+                Resumé
+              </button></a>
+          </div>
+
+          <div class="home_icons">
+            <a href="https://www.linkedin.com/in/okedele-segun/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/@oluwa_CKA" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+            <a href="https://instagram.com/oluwa_cka" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="https://github.com/oluwaCKA" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+          </div>
+        </div>
+
+        <div class="home__img">
+          <img src="./Assets/Segun-Y.-O.jpg" alt="segun-okedele" />
+        </div>
+      </div>
+      <a href="./about.html" class="navbtn"><button>Explore <i class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+
+  <footer>
+    <div class="footer__container">
+      <section>
+        <div class="footer__logo">
+          <p class="attribution">
+            <a href="https://twitter.com/@oluwa_CKA" target="_blank"><img src="./Assets/CKA.svg" class="footer-img" />oluwaCKA</a><span>
+              © Segun Okedele. 2023</span>
+          </p>
+        </div>
+      </section>
+    </div>
+  </footer>
+<!-- </div> -->
+
+  <script src="./App.js/index.js"></script>
+</body>
+
+</html>

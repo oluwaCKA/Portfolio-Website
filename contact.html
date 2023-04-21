@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"sizes="50x50" href="./Assets/Segun-Y.-O.jpg"/>
+    <title>Contact Me | Segun Okedele</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ea4554d7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/contact.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="./index.html" id="navbar__logo"><img src="./Assets/CKA.svg" alt="logo" class="navbar-img">oluwa<span>CKA</span></a>
+                <ul class=navbar__menu>
+                    <li class="navbar__item">
+                      <a href="./index.html" class="nav__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                      <a href="./about.html" class="nav__links">About Me</a>
+                    </li>
+                    <li class="navbar__item">
+                      <a href="./project.html" class="nav__links">Projects</a>
+                    </li>
+                    <li class="navbar__item">
+                      <a href="#contact.html" id="active" class="nav__links">Contact Me</a>
+                    </li>
+                </ul>
+
+                <i onclick="toggleLightMode()" class="fa-sharp fa-solid fa-circle-half-stroke"></i>
+                <div onclick = "void(0)" class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                  
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <!-- Contact Me Section -->
+        <div class="contact" id="contact">
+            <div class="contact-me__container">
+                <div class="contact-me__wrapper">
+                    <div class="contact-me_heading">
+                        <h1>Contact Me</h1>
+                        <div class="contact_icons">
+                            <a href="https://www.linkedin.com/in/okedele-segun/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/@oluwa_CKA" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+                            <a href="https://instagram.com/oluwa_cka" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+                            <a href="https://github.com/oluwaCKA" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                        </div>                        
+                    </div>
+                    <form action="https://formspree.io/f/xoqzayea" method="POST" id="myform">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" placeholder="Need to get in touch with me? Please shoot your message..." cols="20" rows="5" required></textarea>
+                        <input type="submit" value="Send message">
+                    </form>
+                </div>
+            </div>
+            <div class="navBtn">
+                <a href="./project.html"><button class="navbtn"><i class="fa-solid fa-arrow-left"></i> Projects</button></a>
+                <a href="./index.html"><button class="navbtn">Home <i class="fa-solid fa-arrow-right"></i></button></a>
+            </div>            
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <section>
+                <div class="footer__logo">
+                  <p class="attribution"><a href="https://twitter.com/@oluwa_CKA" target="_blank"><img src="./Assets/CKA.svg" class="footer-img">oluwaCKA</a><span> © Segun Okedele.
+                      2023</span></p>
+                </div>
+              </section>
+        </div>
+    </footer>
+    
+    <script src="./App.js/contact.js"></script>
+</body>
+</html>
