@@ -2,13 +2,14 @@
 This is a portfolio website showcasing my work and projects. It provides a brief introduction about me and my skill set.
 
 ## Table of Contents
-Introduction
-Technologies
-Features
-Installation and Usage
-Contributing
-License
-Introduction
+* [Introduction](https://github.com/oluwaCKA/Portfolio-Website/edit/master/README.md#introduction)
+* [Technologies](https://github.com/oluwaCKA/Portfolio-Website/edit/master/README.md#technologies)
+* [Features](https://github.com/oluwaCKA/Portfolio-Website/edit/master/README.md#features)
+* [Installation and Usage](https://github.com/oluwaCKA/Portfolio-Website/edit/master/README.md#installation-and-usage)
+* [Contributing](https://github.com/oluwaCKA/Portfolio-Website/edit/master/README.md#contributing)
+
+
+## Introduction
 The purpose of this website is to showcase my work and provide a platform for potential employers or collaborators to learn more about me and my skill set. The website is designed to be simple and easy to navigate, providing users with a clear understanding of my experience and expertise.
 
 ## Technologies
