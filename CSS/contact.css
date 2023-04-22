@@ -665,6 +665,7 @@ footer {
 @media screen and (max-width: 375px) {
   .footer__logo {
     padding-left: 2px;
+    font-size: 0.6rem;
   }
   .footer__logo span {
     margin-left: 5rem;
