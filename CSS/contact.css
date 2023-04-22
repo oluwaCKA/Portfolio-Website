@@ -410,6 +410,7 @@ input:invalid {
 
   .navBtn a {
     text-decoration: none;
+    color: rgb(17, 17, 17);
   }
 
   .navbtn{
@@ -418,6 +419,7 @@ input:invalid {
     background: rgb(174, 173, 173);
     border: none;
     cursor: pointer;
+    color: rgb(17, 17, 17);
   }
 }
 
