@@ -597,6 +597,11 @@ img {
     width: 100%;
   }
 }
+@media screen and (max-width: 395px) {
+  .home {
+    padding: 150px 0;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .typed-strings .text {
