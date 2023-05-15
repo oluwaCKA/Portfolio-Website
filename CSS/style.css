@@ -343,6 +343,7 @@ img {
 /* CSS hand emoji animation*/
 
 .hand-emoji {
+  display: inline-block; 
   font-size: 4rem;
   animation: wave 2s infinite;
 }
