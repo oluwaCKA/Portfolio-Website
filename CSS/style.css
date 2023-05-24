@@ -37,10 +37,19 @@ img {
   height: auto;
 }
 
+.pre-text{
+  color:rgb(253, 176, 42);
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 960px) {
   .loader img {
     width: 35%;
     height: auto;
+  }
+
+  .loader {
+    flex-direction: column;
   }
 }
 
@@ -61,6 +70,10 @@ img {
 .light-mode {
   background-color: rgb(220, 219, 219);
   color: rgb(17, 17, 17);
+}
+
+.light-mode .loader {
+  background-color: rgb(220, 219, 219);
 }
 
 /* Navbar Section */
@@ -124,6 +137,8 @@ img {
 .navbar a {
   text-decoration: none;
   color: rgb(174, 173, 173);
+  transition: 0.3s ease;
+
 }
 
 .navbar a:hover {
@@ -436,6 +451,8 @@ img {
   cursor: pointer;
   font-family: "League Spartan", "open sans";
   transition: border-color .25s;
+  transition: all 0.25s ease-out 0s;
+
 }
 
 .light-mode .resume-btn {
@@ -448,7 +465,9 @@ img {
   color: #fff;
   transition: all .25s;
   font-size: 20px;
-  letter-spacing: 2px;  
+  letter-spacing: 2px;
+  transition: all 0.25s ease-out 0s;
+
 }
 .resume-btn:focus,
 .resume-btn:focus-visible {

@@ -86,6 +86,8 @@ img {
 .navbar a {
   text-decoration: none;
   color: rgb(174, 173, 173);
+  transition: 0.3s ease;
+
 }
 
 .navbar a:hover {
@@ -329,6 +331,8 @@ hr{
   cursor: pointer;
   font-family: "League Spartan", "open sans";
   transition: all .25s;
+  transition: all 0.25s ease-out 0s;
+
 }
 
 .resume-btn:hover {
@@ -338,6 +342,8 @@ hr{
   transition: all .25s;
   font-size: 20px;
   letter-spacing: 2px;
+  transition: all 0.25s ease-out 0s;
+
 }
 
 .navbtn {

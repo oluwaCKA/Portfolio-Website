@@ -85,6 +85,8 @@ img {
 .navbar a {
   text-decoration: none;
   color: rgb(174, 173, 173);
+  transition: 0.3s ease;
+
 }
 
 .navbar a:hover {
