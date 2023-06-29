@@ -590,6 +590,12 @@ img {
     padding: 40px;
     transform: rotate(0) ;
  }
+
+ .home__img {
+    border: rgb(17, 17, 17);
+    margin-left: 0 !important;
+    width: 400px;
+ }
 }
 
 @media screen and (max-width: 477px) {
