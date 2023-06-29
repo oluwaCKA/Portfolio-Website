@@ -25,16 +25,3 @@ let lightMode = JSON.parse(localStorage.getItem('lightMode')) || false;
 document.body.classList.toggle('light-mode', lightMode);
 
 
-// Scroll Reveal
-// const elements = document.querySelectorAll('.element-to-reveal');
-
-// window.addEventListener('scroll', () => {
-//   elements.forEach((element) => {
-//     if (window.scrollY + window.innerHeight > element.offsetTop) {
-//       element.style.filter = 'blur(0)';
-//       element.style.transition = 'filter 0.8s ease-in-out';
-//     }else {
-//       element.style.filter = 'blur(10px)';
-//     }
-//   });
-// });
