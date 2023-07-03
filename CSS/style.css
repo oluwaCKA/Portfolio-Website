@@ -47,6 +47,8 @@ img {
   .loader img {
     width: 35%;
     height: auto;
+    margin: 0 auto;
+    margin-left: 36%;
   }
 
   .loader {
